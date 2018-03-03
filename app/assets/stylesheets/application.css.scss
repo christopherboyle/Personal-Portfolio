@@ -12,4 +12,29 @@
  *
  *= require_tree .
  *= require_self
+ *= require font-awesome
  */
+
+body {
+  background-color: darkblue;
+}
+
+.navbar {
+  background: transparent;
+  border: transparent;
+  padding-top: 30px;
+  padding-left: 0px;
+
+  div.container {
+    margin-left: 30px;
+  }
+  .navbar-nav {
+    li {
+      padding-right: 20px;
+
+      a {
+        color: white;
+      }
+    }
+  }
+}
