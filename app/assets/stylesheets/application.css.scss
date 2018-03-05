@@ -15,18 +15,22 @@
  *= require font-awesome
  */
 
+//Dark blue is:  #374355
+//Dark Grey is: #ABD9C9
+//Light Grey is: #C9D3DF
+
 body {
-  background-color: darkblue;
+  background-color: #374355;
 }
 
 .navbar {
   background: transparent;
   border: transparent;
-  padding-top: 30px;
+  padding-top: 45px;
   padding-left: 0px;
 
   div.container {
-    margin-left: 30px;
+    margin-left: 15px;
   }
   .navbar-nav {
     li {
@@ -34,7 +38,20 @@ body {
 
       a {
         color: white;
+
+      }
+
+      a:hover {
+        color: #C9D3DF;
       }
     }
   }
+}
+
+h1 {
+  color: white;
+}
+
+.introduction-image {
+  padding-top: 80px;
 }
