@@ -46,6 +46,10 @@ body {
       }
     }
   }
+
+  .fa {
+    font-size: 5vmax;
+  }
 }
 
 .no-padding {
@@ -53,7 +57,13 @@ body {
 }
 
 .introduction-image {
-  padding-top: 80px;
+  padding-top: 8vmax;
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   h1 {
     color: white;
