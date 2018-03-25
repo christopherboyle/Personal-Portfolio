@@ -17,18 +17,10 @@
     <![endif]-->
   </head>
   <body>
-
-    <%= render 'layouts/navigation' %>
-
-    <div class="container no-padding">
-      <div class="row">
-        <div class="col-sm-12">
-          <%= bootstrap_flash %>
-          <%= yield %>
-        </div>
-      </div><!--/row-->
-
-    </div> <!-- /container -->
-
+    <%= render "layouts/navigation" %>
+    <div class="main-content">
+      <%= bootstrap_flash %>
+      <%= yield %>
+    </div>
   </body>
 </html>
