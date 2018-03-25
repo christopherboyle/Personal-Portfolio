@@ -21,35 +21,39 @@
 
 body {
   background-color: #374355;
-}
-
-.navbar-nav {
-  background: transparent;
-  border: transparent;
-  margin: 0px 0px 0px 0px;
-  padding: 20px 0px 0px 20px;
-
-  li {
-    padding-right: 20px;
-
-    a {
-      color: white;
-    }
-
-    a:hover {
-      color: #C9D3DF;
-    }
-  }
+  height: 100vh;
+  width: 100vw;
 }
 
 .main-content {
   height: 100vh;
   width: 100vw;
 
+  .navbar-nav {
+    background: transparent;
+    border: transparent;
+    padding: 20px 0px 0px 20px;
+    margin: 0px 0px 0px 0px;
+
+    li {
+      padding-right: 20px;
+      float: left;
+
+      a {
+        color: white;
+      }
+
+      a:hover {
+        color: #C9D3DF;
+      }
+    }
+  }
+
   .outer-content-div {
     display: table;
     position: absolute;
-    height: 100%;
+    z-index: -2;
+    height: calc(100% - 20px);
     width: 100%;
 
     .middle-content-div {
