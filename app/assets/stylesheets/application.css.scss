@@ -36,7 +36,6 @@ body {
     margin: 0px 0px 0px 0px;
 
     li {
-      padding-right: 20px;
       float: left;
 
       a {
@@ -53,7 +52,7 @@ body {
     display: table;
     position: absolute;
     z-index: -2;
-    height: calc(100% - 20px);
+    height: calc(100% - 60px);
     width: 100%;
 
     .middle-content-div {
@@ -68,7 +67,7 @@ body {
           color: white;
           text-align: center;
           font-weight: 300;
-          font-size: 24px;
+          font-size: 26px;
           text-rendering: optimizeLegibility;
         }
       }
