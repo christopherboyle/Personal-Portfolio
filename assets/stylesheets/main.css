@@ -1,0 +1,67 @@
+/*
+  Dark blue is:  #374355
+  Dark Grey is: #ABD9C9
+  Light Grey is: #C9D3DF
+*/
+
+body {
+  background-color: #374355;
+  height: 100vh;
+  width: 100vw;
+}
+
+.me-img {
+  height: 192px;
+  width: 192px;
+}
+
+.main-content {
+  height: 100vh;
+  width: 100vw;
+}
+
+.main-content .navbar-nav {
+  background: transparent;
+  border: transparent;
+  padding: 20px 0px 0px 20px;
+  margin: 0px 0px 0px 0px;
+}
+
+.main-content .navbar-nav li {
+  float: left;
+}
+
+.main-content .navbar-nav li a {
+  color: white;
+}
+
+.main-content .navbar-nav li a:hover {
+  color: #C9D3DF;
+}
+
+.main-content .outer-content-div {
+  display: table;
+  position: absolute;
+  z-index: -2;
+  height: calc(100% - 60px);
+  width: 100%;
+}
+
+.main-content .outer-content-div .middle-content-div {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.main-content .outer-content-div .middle-content-div .inner-content-div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 192px;
+}
+
+.main-content .outer-content-div .middle-content-div .inner-content-div h1 {
+  color: white;
+  text-align: center;
+  font-weight: 300;
+  font-size: 26px;
+  text-rendering: optimizeLegibility;
+}
